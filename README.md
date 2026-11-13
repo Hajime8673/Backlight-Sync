@@ -16,9 +16,20 @@ quicker, steadier and smarter about movies.
   **Ctrl + Alt + B** to cycle Movie sync → Night light → Off.
 - Pauses when the PC locks or sleeps, optional start with Windows.
 
-## Build and run
+## Download
 
-Requires Windows 10/11 and the .NET 8 SDK (runtime to run).
+Grab `BacklightSync-win-x64.zip` from the [latest release](https://github.com/Hajime8673/Backlight-Sync/releases/latest),
+unzip it anywhere and run `BacklightSync.exe`. Nothing to install – .NET is bundled.
+
+- Windows may show **"Windows protected your PC"** the first time because the app isn't code-signed.
+  Choose *More info → Run anyway*, or build it yourself from source below.
+- Quit the vendor **SyncLight** app first – two programs can't drive the strip at once.
+- Windows **HDR must be off** for now.
+- The app lives in the tray (near the clock). Click the icon to open settings.
+
+## Build from source
+
+Requires Windows 10/11 and the .NET 8 SDK.
 
 ```
 cd BacklightSync

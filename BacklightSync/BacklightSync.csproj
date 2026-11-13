@@ -11,6 +11,10 @@
     <RootNamespace>BacklightSync</RootNamespace>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Version>1.0.0</Version>
+    <Product>Backlight Sync</Product>
+    <AssemblyTitle>Backlight Sync</AssemblyTitle>
+    <Description>Fast screen sync, black bar detection and night light for SyncLight USB backlight strips</Description>
   </PropertyGroup>
 
   <ItemGroup>
