@@ -1,0 +1,10 @@
+# build output
+bin/
+obj/
+App/
+
+# local files
+*.lnk
+*.user
+.vs/
+*.pdb
